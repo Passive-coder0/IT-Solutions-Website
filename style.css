@@ -51,6 +51,8 @@ ul a {
 .content {
     display: flex;
     flex-direction: column;
+    padding-bottom: 60px;
+    background-color: #01000e;
 }
 .one {
     background: rgb(34, 120, 79);
@@ -62,23 +64,23 @@ ul a {
     color: white;
 }
 
-.left {
+.one .left {
     width: 50%;
     padding: 0 0 0 10%;
 }
 
-.left h1 {
+.one .left h1 {
     width: 65%;
     line-height: 1;
     font-size: 4.5rem;
     font-weight: 700;
 }
 
-.left p {
+.one .left p {
     font-size: 1.3rem;
     width: 50%;
 }
-.right{
+.one .right{
     width: auto;
 }
 .appoint a {
@@ -158,6 +160,42 @@ ul a {
 
 .appointment-btn:hover {
     background-color: #ff3399;
+}
+img {
+    display: block;
+    max-inline-size: 100%;
+  }
+.three {
+    color: white;
+    display: flex;
+    background-color: #01000e;
+}
+.three .left {
+    width: 45%;
+}
+.three .right {
+    padding-left: 200px;
+}
+.three .right h1 {
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.three .right ul {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.three .right li {
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+.three .right p {
+    width: 60%;
+    margin-bottom: 50px;
 }
 .footer {
     height: 80px;
