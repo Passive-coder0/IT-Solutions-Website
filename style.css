@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.header {
+    background-color: #141414;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    margin: 16px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 16px 50px;
+    font-size: 1.3rem;
+}
+
+ul a:hover {
+    color: black;
+    background-color: white;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 25px 20px;
+}
+
+.contact a {
+    background-color: #087f5d;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 20px 25px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.one {
+    background: rgb(34, 120, 79);
+    background: linear-gradient(152deg, rgba(34, 120, 79, 1) 0%, rgba(1, 0, 14, 1) 45%);
+    padding: 60px 0 60px 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.left {
+    width: 50%;
+    padding: 0 0 0 10%;
+}
+
+.left h1 {
+    width: 65%;
+    line-height: 1;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.left p {
+    font-size: 1.3rem;
+    width: 50%;
+}
+.right{
+    width: auto;
+}
+.appoint a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cf1c66;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    text-decoration: none;
+    color: white;
+}
+.two {
+    background-color: #01000e;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75%;
+    margin: 20px;
+}
+
+.card {
+    background-color: #1e1d1d;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.card a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.appointment {
+    padding: 20px;
+    margin: 10px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.appointment h2 {
+    font-size: 1.5rem;
+}
+
+.appointment p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.appointment-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff007f;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.appointment-btn:hover {
+    background-color: #ff3399;
+}
+.footer {
+    height: 80px;
+    font-size: 1.2rem;
+    background-color: #141414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
