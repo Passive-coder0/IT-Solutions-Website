@@ -37,7 +37,9 @@ ul a {
     color: white;
     text-decoration: none;
     font-weight: 600;
-    padding: 25px 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .contact a {
@@ -289,4 +291,122 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (max-width: 800px) {
+    .header {
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    ul {
+        flex-direction: column;
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    ul a {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+    }
+    .header .contact {
+        display: none;
+    }
+    .contact {
+        margin: 20px 0;
+    }
+    .top {
+        flex-direction: column;
+    }
+    .one {
+        flex-direction: column;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .one .left,
+    .one .right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .one .left h1 {
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .one .left p {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .two .appointment {
+        padding: 0;
+    }
+    .two .appointment-btn {
+        padding: 15px 15px;
+    }
+    .two .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .three {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .three .left {
+        width: auto;
+    }
+    .three .right {
+        padding-left: 0;
+    }
+
+    .three .right ul {
+        width: 100%;
+    }
+
+    .three .right p {
+        width: 80%;
+        margin: 30px auto;
+    }
+    .contact {}
+    .four {
+        text-align: center;
+        margin-top: 0;
+    }
+    .four .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .four .card {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .five {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .five h1 {
+        font-size: 2rem;
+        max-width: 100%;
+    }
+
+    .five .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer {
+        font-size: 1rem;
+        padding: 20px;
+    }
 }
