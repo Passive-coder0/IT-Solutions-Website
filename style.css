@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: auto;
+    font-family: 'Russo One', sans-serif;
 }
 
 .header {
@@ -43,15 +44,14 @@ ul a {
     background-color: #087f5d;
     text-decoration: none;
     color: white;
-    border-radius: 8px;
-    font-size: 1.3rem;
-    font-weight: 600;
-    padding: 20px 25px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 14px 30px;
 }
 .content {
     display: flex;
     flex-direction: column;
-    padding-bottom: 60px;
     background-color: #01000e;
 }
 .one {
@@ -97,7 +97,28 @@ ul a {
 .two {
     background-color: #01000e;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.top {
+    color:white;
+    width: 75%;
+    display: flex;
+    justify-content:space-between ;
+    margin: 50px 20px 0 20px;
+}
+.top h1 {
+    font-size: 2.6rem;
+    font-weight: 900;
+    margin: 10px;
+    max-width: 400px;
+}
+.top p {
+    margin: 10px;
+    margin-right: 0;
+    max-width: 450px;
+    font-size: 1.2rem;
 }
 .container {
     color: white;
@@ -132,6 +153,9 @@ ul a {
 }
 
 .appointment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     margin: 10px;
     width: calc(100% - 40px);
@@ -141,20 +165,22 @@ ul a {
 
 .appointment h2 {
     font-size: 1.5rem;
+    margin-bottom: 0;
 }
 
 .appointment p {
+    max-width: 400px;
     font-size: 1rem;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .appointment-btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 15px 25px;
     background-color: #ff007f;
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
     border-radius: 5px;
 }
 
@@ -166,6 +192,7 @@ img {
     max-inline-size: 100%;
   }
 .three {
+    margin: 50px 0;
     color: white;
     display: flex;
     background-color: #01000e;
@@ -196,6 +223,63 @@ img {
 .three .right p {
     width: 60%;
     margin-bottom: 50px;
+}
+.four {
+    background-color: #01000e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 50px 0;
+}
+.four .container {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+    margin: 20px;
+}
+.four .card {
+    background-color: black;
+    padding: 120px 0;
+    margin: 0;
+    border: 1px solid white;
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.four .card h1 {
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+.five {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://itsolutions.cw/wp-content/uploads/2023/12/Rectangle-17.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: local;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.five h1 {
+    font-size: 2.8rem;
+    max-width: 660px;
+    text-align: center;
+    line-height: 1.2;
+}
+.five .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 .footer {
     height: 80px;
